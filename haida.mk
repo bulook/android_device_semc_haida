@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     device/semc/haida/prebuilt/hw_config.sh:system/etc/hw_config.sh \
     device/semc/msm7x30-common/prebuilt/logo_H.rle:root/logo.rle \
     device/semc/haida/prebuilt/bootrec-device:root/sbin/bootrec-device \
+    device/semc/haida/prebuilt/bootrec:root/sbin/bootrec \
     device/semc/haida/recovery.fstab:root/recovery.fstab
 
 # Device specific configs
