@@ -1,5 +1,5 @@
 -include device/semc/mogami-common/BoardConfigCommon.mk
--include vendor/semc/urushi/BoardConfigVendor.mk
+-include vendor/semc/haida/BoardConfigVendor.mk
 
 TARGET_KERNEL_SOURCE := kernel/semc/msm7x30
 TARGET_KERNEL_CONFIG := pac_haida_defconfig
