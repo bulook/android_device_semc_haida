@@ -48,7 +48,7 @@ echo 1 > $dev/button-backlight/als/enable  #Sensor on/off. 1 = on, reg 90h
 echo 1 > $dev/red/als/enable  #Sensor on/off. 1 = on, reg 90h
 echo 1 > $dev/green/als/enable  #Sensor on/off. 1 = on, reg 90h
 echo 1 > $dev/blue/als/enable  #Sensor on/off. 1 = on, reg 90h
-echo 400 > $dev/button-backlight-rgb1/max_current  #Max current in uA
+echo 400 > $dev/button-backlight/max_current  #Max current in uA
 
 # TI BQ275xx firmware loader
 bq275xx_fwloader
